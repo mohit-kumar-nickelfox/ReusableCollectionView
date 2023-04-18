@@ -37,7 +37,7 @@ public extension ReusableCollectionViewProtocol {
 
 open class CollectionViewController: UIViewController {
     public var viewModel: ReusableCollectionViewProtocol!
-    @IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet public weak var collectionView: UICollectionView!
     
     open override func viewDidLoad() {
         super.viewDidLoad()
